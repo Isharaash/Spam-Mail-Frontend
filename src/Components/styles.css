@@ -1,0 +1,463 @@
+/* styles.css */
+
+/* Container */
+.prediction-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading */
+  .prediction-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+  }
+  
+  /* Textarea */
+  .prediction-textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  /* Button */
+  .prediction-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Prediction List */
+  .prediction-list {
+    margin-top: 20px;
+  }
+  
+  /* Prediction List item */
+  .prediction-item {
+    margin-bottom: 10px;
+  }
+
+
+
+  
+
+
+
+  .prediction-list-container {
+    max-width: 100%;
+    padding: 20px;
+  }
+  .prediction-list-container h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .prediction-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .prediction-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styling the button */
+  .prediction-item button {
+    background-color: #007bff; /* Blue color for the button */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 8px 16px; /* Padding */
+    cursor: pointer; /* Cursor style */
+  }
+  .label {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .value{
+    font-size: 14px;
+  }
+  .value2{
+    font-size: 14px;
+    color: red;
+  }
+  
+  /* Media query for mobile devices */
+  @media screen and (max-width: 768px) {
+    .prediction-item {
+      padding: 8px;
+    }
+    
+    /* Adjust button size for mobile */
+    .prediction-item button {
+      padding: 6px 12px;
+    }
+  }
+  
+
+
+
+  .total-users-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .total-users-container p {
+    margin: 10px 0;
+  }
+  
+  /* Media query for mobile responsiveness */
+  @media (max-width: 768px) {
+    .total-users-container {
+      width: 90%;
+    }
+  }
+
+
+/* User Pages */
+
+.user-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  
+  
+  .header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .logout-button {
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .user-page {
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .user-page {
+      padding: 5px;
+    }
+  }
+  
+  
+  /* LogoutPage.css */
+
+.logout-button {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: 60px;
+
+
+  }
+  
+  .logout-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
+
+  /* AdminLogoutPage.css */
+
+.logout-button2 {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+
+
+  }
+  
+  .logout-button2:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+
+  
+
+/* LoginPage.css */
+
+/* Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  
+  
+}
+
+/* Login Form */
+.login-form-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.login-form {
+  background-color: #fff;
+  margin-top: -140px;
+  position: absolute;
+  margin-left: 140px;
+}
+
+.login-container h1{
+
+  font-size: 35px;
+  text-align: center;
+  margin-top: -350px;
+  position: absolute;
+  color: rgb(1, 158, 231);
+  font-family:cursive;
+
+  
+
+}
+.login-form h2{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family:cursive;
+  
+}
+
+.login-form label {
+  
+  font-size: 15px;
+  font-family:cursive;
+}
+
+.login-form input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none; /* Remove border */
+  border-bottom: 3px solid #ccc; /* Add bottom border */
+  border-radius: 5px; /* Remove border radius */
+  outline: none;
+  font-size: 13px;
+}
+
+.login-form button {
+  width: 97%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Photo */
+.photo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+  margin-left: -68px;
+  margin-top: 71px;
+}
+
+/* Register Link */
+.register-link {
+  color: #007bff; /* Link color */
+  cursor: pointer;
+  font-size: 10px;
+}
+.login-form p{
+
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.register-link:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RegisterPage.css */
+
+/* Container */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+/* Register Form */
+.register-form-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.register-form {
+  background-color: #fff;
+  margin-top: -150px;
+  position: absolute;
+  margin-left: 140px;
+}
+
+.register-container h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: -325px;
+  position: absolute;
+  color: rgb(1, 158, 231);
+  font-family: cursive;
+
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.register-form label {
+  font-size: 15px;
+  font-family: cursive;
+}
+
+.register-form input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none; /* Remove border */
+  border-bottom: 3px solid #ccc; /* Add bottom border */
+  border-radius: 5px; /* Remove border radius */
+  outline: none;
+  font-size: 13px;
+}
+
+.register-form button {
+  width: 97%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Success message */
+.success-message {
+  color: green;
+  margin-top: 10px;
+}
+
+/* Login Link */
+.login-link {
+  color: #007bff; /* Link color */
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.login-link:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+.register-form p {
+  font-size: 10px;
+  margin-left: 5px;
+}
+/* RegisterPage.css */
+
+/* Photo */
+.photo-container2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo2 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+  margin-left: -100px;
+  margin-top: 101px;
+  
+}
